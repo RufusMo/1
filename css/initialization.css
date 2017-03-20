@@ -1,0 +1,24 @@
+body, header, footer, div, ul, ol, dl, dt, dd, li, dl, p,
+h1, h2, h3, h4, table, th, td, input, button, select,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 黑体, sans-serif;
+    color: #000;
+}
+
+ul li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
