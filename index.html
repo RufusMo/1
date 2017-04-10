@@ -2,22 +2,254 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     <title></title>
     <script src="bootstrap/jquery.min.js"></script>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <script src="bootstrap/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/initialization.css">
     <link rel="stylesheet" href="css/index.css">
+    <script src="js/js.js"></script>
 
 </head>
 <body>
-<header>
+<!-- 页眉 -->
+<div class="header">
+    <div class="container">
+        <div class="row header1">
+            <ul class="header-l">
+                <li class="header-btn">
+                    <a href="" class="header-btn1">请登录</a>
+                    <a href="">注册</a>
+                </li>
+            </ul>
+            <ul class="header-r">
+                <li>客服热线：0835-2000000</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 搜索框 -->
 <div class="container">
-    <div class="row">
+    <div class="row searchBar">
+        <div class="logo">
+            <img src="image/logo.png"/>
+        </div>
+        <div class="search">
+            <div class="col-xs-12 ">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                    <button href="" class="btn btn-default" type="button">搜索</button>
+                </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 导航栏 -->
+<div class="container">
+    <div class="row navigation">
+        <!-- 菜单 -->
+        <ul class="menuList">
+
+            <li class="menu-item" data-id="a">
+                <div>
+                    <a href="">书籍</a>
+                    <span>/</span>
+                    <a href="">学习用品</a>
+                </div>
+            </li>
+
+            <li class="menu-item" data-id="b">
+                <div>
+                    <a>生活用品</a>
+                    <span>/</span>
+                    <a>乐器</a>
+                </div>
+            </li>
+            <li class="menu-item" data-id="c">
+                <div>
+                    <a>衣服</a>
+                    <span>/</span>
+                    <a>鞋</a>
+                    <span>/</span>
+                    <a>箱包</a>
+                </div>
+            </li>
+            <li class="menu-item" data-id="d">
+                <div>
+                    <a>手机</a>
+                    <span>/</span>
+                    <a>数码</a>
+                </div>
+            </li>
+            <li class="menu-item" data-id="e">
+                <div>
+                    <a>运动</a>
+                    <span>/</span>
+                    <a>户外</a>
+                </div>
+            </li>
+            <li class="menu-item" data-id="f">
+                <div style="border-bottom: none">
+                    <a>住房</a>
+                    <span>/</span>
+                    <a>出行</a>
+                </div>
+            </li>
+
+
+        </ul>
+        <!-- 菜单详细 -->
+        <div class="menuContent a" style="display: none">
+            <div class="contentBox">
+                <div class="content1">
+                    <h5>书籍</h5>
+                    <div>
+                        <a href="">英语四级</a>
+                        <span>/</span>
+                        <a href="">六级</a>
+                        <a></a>
+                        计算机二级 各类专业书 雅思/托福
+                    </div>
+                </div>
+                <div class="content2">
+                    学习用品
+                    文具 笔类 纸张本册 画具/画材
+                </div>
+            </div>
+        </div>
+        <div class="menuContent b" style="display: none">
+            <div class="contentBox">
+                12
+            </div>
+        </div>
+        <div class="menuContent c" style="display: none">
+            <div class="contentBox">
+                123
+            </div>
+        </div>
+        <div class="menuContent d" style="display: none">
+            <div class="contentBox">
+                1234
+            </div>
+        </div>
+        <div class="menuContent e" style="display: none">
+            <div class="contentBox">
+                12345
+            </div>
+        </div>
+        <div class="menuContent f" style="display: none">
+            <div class="contentBox">
+                123456
+            </div>
+        </div>
+
+        <!-- 轮播 -->
+        <div class="banner">
+            <div id="myCarousel" class="carousel slide">
+                <!-- 轮播（Carousel）项目 -->
+                <div class="carousel-inner">
+                    <a href="" class="item active">
+                        <img style="" src="image/1.jpg" alt="First slide">
+                    </a>
+                    <a href="" class="item">
+                        <img src="image/2.jpg" alt="Second slide">
+                    </a>
+                    <a href="" class="item">
+                        <img src="image/3.jpg" alt="Third slide">
+                    </a>
+                </div>
+
+                <!-- 轮播（Carousel）导航 -->
+                <a class="carousel-control left left-control-btn" href="#myCarousel"
+                   data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control right" href="#myCarousel" role="button"
+                   data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                </a>
+
+                <!--轮播（Carousel）指标 -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 第一栏 -->
+<div class="container">
+    <div class="row qwe">
+        <h4>最新发布</h4>
+        <div class="asd">
+            <div class="zxc">
+
+            </div>
+            <div class="zxc">
+
+            </div>
+            <div class="zxc">
+
+            </div>
+            <div class="zxc">
+
+            </div>
+            <div class="zxc">
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 第二栏 -->
+<div class="container">
+    <div class="row qwe">
+        <div class="fgh">
+            <h4>最新发布</h4>
+            <div class="rty">
+
+            </div>
+        </div>
+        <div class="fgh">
+            <h4>最新发布</h4>
+            <div class="rty">
+
+            </div>
+        </div>
 
     </div>
-
 </div>
-</header>
+<!-- 第三栏 -->
+<div class="container">
+    <div class="row qwe">
+        <h4>最新发布</h4>
+        <div class="asd">
+
+        </div>
+    </div>
+</div>
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row footer-link">
+            <div class="">
+                <a href="" class="">四川农业大学</a>
+                <a href="" class="">四川农业大学</a>
+                <a href="" class="">四川农业大学</a>
+                <a href="" class="">四川农业大学</a>
+                <a href="" class="">四川农业大学</a>
+            </div>
+        </div>
+        <div class="row footer-copyright">
+            <div class="">
+                <span>Copyright © 2013-2016 四川农业大学 信息工程学院</span>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
